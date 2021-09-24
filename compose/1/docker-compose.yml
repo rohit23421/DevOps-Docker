@@ -1,0 +1,10 @@
+version: '2'
+services:
+  jekyll:
+    image: rohit23421/jekyll-serve
+    volumes:
+      - .:/site
+    ports:
+      - '80:4000'
+
+
